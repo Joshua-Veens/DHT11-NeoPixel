@@ -1,0 +1,17 @@
+DHT11_HPP	C:\Users\joshu\Documents\School\OOPC\Omgeving\v1oopc-examples\DHT11.hpp	/^#define DHT11_HPP$/;"	macro	line:2
+TIMEOUT	C:\Users\joshu\Documents\School\OOPC\Omgeving\v1oopc-examples\DHT11.hpp	/^#define TIMEOUT 10000$/;"	macro	line:5
+DHT11	C:\Users\joshu\Documents\School\OOPC\Omgeving\v1oopc-examples\DHT11.hpp	/^class DHT11$/;"	class	line:8
+pin	C:\Users\joshu\Documents\School\OOPC\Omgeving\v1oopc-examples\DHT11.hpp	/^    hwlib::target::pin_in_out & pin;$/;"	member	line:11	class:DHT11	access:private
+error_low	C:\Users\joshu\Documents\School\OOPC\Omgeving\v1oopc-examples\DHT11.hpp	/^    uint8_t error_low;$/;"	member	line:12	class:DHT11	access:private
+error_high	C:\Users\joshu\Documents\School\OOPC\Omgeving\v1oopc-examples\DHT11.hpp	/^    uint8_t error_high;$/;"	member	line:13	class:DHT11	access:private
+nu	C:\Users\joshu\Documents\School\OOPC\Omgeving\v1oopc-examples\DHT11.hpp	/^    uint_fast64_t nu;$/;"	member	line:14	class:DHT11	access:private
+tijd	C:\Users\joshu\Documents\School\OOPC\Omgeving\v1oopc-examples\DHT11.hpp	/^    uint_fast64_t tijd;$/;"	member	line:15	class:DHT11	access:private
+data	C:\Users\joshu\Documents\School\OOPC\Omgeving\v1oopc-examples\DHT11.hpp	/^    uint8_t data[5];$/;"	member	line:16	class:DHT11	access:private
+loopcounter	C:\Users\joshu\Documents\School\OOPC\Omgeving\v1oopc-examples\DHT11.hpp	/^    unsigned int loopcounter;$/;"	member	line:17	class:DHT11	access:private
+index	C:\Users\joshu\Documents\School\OOPC\Omgeving\v1oopc-examples\DHT11.hpp	/^    uint8_t index;$/;"	member	line:18	class:DHT11	access:private
+cnt	C:\Users\joshu\Documents\School\OOPC\Omgeving\v1oopc-examples\DHT11.hpp	/^    uint8_t cnt;$/;"	member	line:19	class:DHT11	access:private
+DHT11	C:\Users\joshu\Documents\School\OOPC\Omgeving\v1oopc-examples\DHT11.hpp	/^    DHT11(hwlib::target::pin_in_out & pin, $/;"	prototype	line:21	class:DHT11	access:public	signature:(hwlib::target::pin_in_out & pin, uint8_t error_low = 0, uint8_t error_high = 0, uint_fast64_t nu = 0, uint_fast64_t tijd = 0, uint8_t data[5] = 0, unsigned int loopcounter = TIMEOUT, uint8_t index = 0, uint8_t cnt = 0)
+start_up	C:\Users\joshu\Documents\School\OOPC\Omgeving\v1oopc-examples\DHT11.hpp	/^    void start_up();$/;"	prototype	line:31	class:DHT11	access:public	signature:()	returns:void 
+read	C:\Users\joshu\Documents\School\OOPC\Omgeving\v1oopc-examples\DHT11.hpp	/^    void read();$/;"	prototype	line:33	class:DHT11	access:public	signature:()	returns:void 
+get_temperature	C:\Users\joshu\Documents\School\OOPC\Omgeving\v1oopc-examples\DHT11.hpp	/^    void get_temperature();$/;"	prototype	line:35	class:DHT11	access:public	signature:()	returns:void 
+schermpje	C:\Users\joshu\Documents\School\OOPC\Omgeving\v1oopc-examples\DHT11.hpp	/^    void schermpje();$/;"	prototype	line:37	class:DHT11	access:public	signature:()	returns:void 
